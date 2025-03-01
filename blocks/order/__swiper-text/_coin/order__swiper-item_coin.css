@@ -1,0 +1,11 @@
+.order__swiper-text_coin{
+  border-radius: 50px;
+  background-color: var(--secondary-yellow-color);
+  padding: 4px 3px;
+  width: 17px;
+  text-align: center;
+  font-size: 8px;
+  font-weight: 800;
+  color: black;
+  text-transform: uppercase;
+}

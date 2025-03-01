@@ -1,0 +1,9 @@
+.order__btn{
+  display: block;
+  background-color: var(--secondary-yellow-color);
+  border-radius: 10px;
+  padding: 18px 109px;
+  margin: 0 auto 15px;
+  font-size: 16px;
+  font-weight: 800;
+}

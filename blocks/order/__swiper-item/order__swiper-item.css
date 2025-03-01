@@ -1,0 +1,26 @@
+.order__swiper-item{
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  color: #fff;
+  text-align: end;
+  padding: 15px 10px;
+  max-width: 260px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.order__swiper-item::before{
+  content: 'One time offer!';
+  background-color: var(--secondary-yellow-color);
+  color: black;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 800;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: -7%;
+  padding: 4px 10px;
+}

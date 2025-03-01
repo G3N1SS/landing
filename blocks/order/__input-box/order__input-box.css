@@ -1,0 +1,5 @@
+.order__input-box{
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+}

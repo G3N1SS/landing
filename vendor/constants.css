@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #9564AA;
+  --secondary-yellow-color: #FFCF2D;
+
+  --swiper-pagination-top: 60px;
+  --swiper-theme-color: #FFC500;
+}
+
+.swiper{
+  padding: 0 0 49px 0;
+  background-color: transparent;
+}

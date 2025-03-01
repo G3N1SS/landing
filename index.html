@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <title>Document</title>
+</head>
+<body class="page">
+  <header class="header">
+    <!-- Мобильная версия header'a -->
+    <div class="container container_header"> <!--Ограничиваем зону контента-->
+      <!-- Гамбургер-меню -->
+      <nav class="header__hamburger hamburger">
+        <hr class="hamburger__line">
+        <hr class="hamburger__line">
+        <hr class="hamburger__line">
+      </nav>
+      <!-- Мобильная иконка премиума -->
+      <img src="./images/diamond.svg" alt="diamond" class="header__icon">
+    </div>
+  </header>
+  <main>
+    <div class="container container_main">
+      <section class="order">
+        <h1 class="order__title">Закончились кредиты?</h1>
+        <hr class="order__title-underline">
+        <div class="order__swiper swiper">
+          <!-- Additional required wrapper -->
+          <ul class="order__swiper-list swiper-wrapper">
+            <!-- Slides -->
+          </ul>
+          <!-- If we need pagination -->
+          <div class="order__swiper-pagination swiper-pagination"></div>
+          <!-- If we need scrollbar -->
+        </div>
+        <form class="order__form">
+          <button class="order__btn" type="submit">Try now</button>
+          <div class="order__input-box">
+            <input type="checkbox" name="tryNow" class="order__input"/>
+            <label for="tryNow" class="order__input-text">By clicking Checkbox you agree and accept our <a class="order__input-text order__input-text_link" href="#">Policy</a>, and <a class="order__input-text order__input-text_link" href="#">Terms of use</a></label>
+          </div>
+        </form>
+      </section>
+      <section class="menu">
+        <img src="./images/diamondM.svg" alt="Алмаз" class="menu__img">
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <div class="menu__list-img" id="message"></div>
+            <p class="menu__list-text">Отправлять сообщения</p>
+          </li>
+          <li class="menu__list-item">
+            <div class="menu__list-img" id="photo"></div>
+            <p class="menu__list-text">Просматривать скрытые фото</p>
+          </li>
+          <li class="menu__list-item">
+            <div class="menu__list-img" id="presents"></div>
+            <p class="menu__list-text">Оплачивать подарки</p>
+          </li>
+          <li class="menu__list-item">
+            <div class="menu__list-img" id="premium"></div>
+            <p class="menu__list-text">Пользоваться другими премиум функциями </p>
+          </li>
+          <li class="menu__list-item">
+            <div class="menu__list-img" id="presents"></div>
+            <p class="menu__list-text">Оплачивать подарки</p>
+          </li>
+          <li class="menu__list-item">
+            <div class="menu__list-img" id="photo"></div>
+            <p class="menu__list-text">Просматривать скрытые фото</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <template class="order__template-card">
+    <li class="order__swiper-item swiper-slide">
+      <p class="order__swiper-credits order__swiper-text"></p>
+      <span class="order__swiper-text order__swiper-text_coin">cr</span>
+      <p class="order__swiper-price order__swiper-text"></p>
+    </li>
+  </template>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+  <script src="./scripts/app.js" type="module" defer></script>
+</body>
+</html>
