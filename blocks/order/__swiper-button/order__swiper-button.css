@@ -1,0 +1,14 @@
+.order__swiper-button{
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: var(--secondary-yellow-color);
+    padding: 17px 28px;
+    color: black;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .order__swiper-button{
+        display: block;
+    }
+}

@@ -1,0 +1,17 @@
+.profile {
+  padding: 66px 20px;
+  display: none;
+  max-width: 280px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    background-color: rgba(149, 100, 170, 0.1);
+    display: block;
+    grid-area: profile;
+    padding: 18px;
+    border-radius: 10px;
+    border: 2px solid rgba(149, 100, 170, 0.2);
+    max-width: 270px;
+  }
+}

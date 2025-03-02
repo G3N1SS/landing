@@ -1,0 +1,21 @@
+.profile__premium {
+    text-transform: uppercase;
+    background-color: #684677;
+    border-radius: 5px;
+    height: max-content;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #fff;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.profile__premium:hover {
+    background-color: var(--secondary-yellow-color);
+    transform: scale(1.05);
+}
+
+.profile__premium:active {
+    background-color: var(--primary-color);
+    transform: scale(.95);
+}

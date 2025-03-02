@@ -1,0 +1,8 @@
+.profile__info {
+    display: grid;
+    grid-template-areas: 'img name'
+                         'img premium';
+    gap: 0 15px;
+    grid-template-columns: repeat(2, max-content);
+    margin-bottom: 20px;
+}

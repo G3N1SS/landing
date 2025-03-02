@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) {
+    .container_main {
+        display: grid;
+        grid-template-areas: "profile cards"
+                             "profile menu";
+        grid-template-columns: 23% 73.5%;
+        gap: 0 30px;
+    }
+}

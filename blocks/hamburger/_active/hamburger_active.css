@@ -1,0 +1,13 @@
+.hamburger_active hr{
+    margin: 5px 0 -7px 0;
+}
+
+.hamburger_active hr:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg)
+}
+.hamburger_active hr:nth-child(2) {
+    display: none
+}
+.hamburger_active hr:nth-child(3) {
+    transform: translateY(3px) rotate(45deg)
+}

@@ -1,0 +1,11 @@
+.profile__setting {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 25px;
+    padding: 0 12px;
+    align-items: center;
+}
+
+.profile__setting:last-child {
+    margin-bottom: 0;
+}

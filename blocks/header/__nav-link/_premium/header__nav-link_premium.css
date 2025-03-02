@@ -1,0 +1,6 @@
+.header__nav-link_premium{
+    background-color: #684677;
+    border-radius: 10px;
+    color: var(--secondary-yellow-color);
+    padding: 6px 13px;
+}

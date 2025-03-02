@@ -1,3 +1,5 @@
 .order{
   margin-bottom: 32px;
+  grid-area: cards;
+  max-width: 870px;
 }

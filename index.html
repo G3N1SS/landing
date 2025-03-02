@@ -21,14 +21,60 @@
         <hr class="hamburger__line">
       </nav>
       <!-- Мобильная иконка премиума -->
-      <img src="./images/diamond.svg" alt="diamond" class="header__icon">
+      <img src="" alt="diamond" class="header__icon">
+      <nav class="header__nav">
+        <a href="" class="header__nav-link">People nearby</a>
+        <a href="" class="header__nav-link">Search</a>
+        <a href="" class="header__nav-link header__nav-link_premium">
+          Premium
+          <img src="./images/diamond.svg" alt="diamond" class="header__nav-img">
+        </a>
+      </nav>
     </div>
   </header>
-  <main>
+  <main class="main">
     <div class="container container_main">
+    <section class="profile">
+      <div class="profile__info">
+        <img src="./images/profile-pic.jpg" alt="Profile-pic" class="profile__pic">
+        <p class="profile__name">Test2412</p>
+        <a class="profile__premium">get premium</a>
+      </div>
+      <hr class="profile__underline underline">
+      <ul class="profile__settings">
+        <li class="profile__setting">
+          <img src="./images/profile-icon.svg" alt="Profile-icon" class="profile__setting-icon">
+          <p class="profile__setting-name">Profile</p>
+        </li>
+        <li class="profile__setting">
+          <img src="./images/photo-icon.svg" alt="" class="profile__setting-icon">
+          <p class="profile__setting-name">My photos</p>
+        </li>
+        <li class="profile__setting">
+          <img src="./images/message-icon.svg" alt="" class="profile__setting-icon">
+          <p class="profile__setting-name">Messages</p>
+        </li>
+        <li class="profile__setting">
+          <img src="./images/like-icon.svg" alt="" class="profile__setting-icon">
+          <p class="profile__setting-name">Favorites</p>
+        </li>
+        <li class="profile__setting">
+          <img src="./images/eye-icon.svg" alt="" class="profile__setting-icon">
+          <p class="profile__setting-name">Guests</p>
+        </li>
+        <li class="profile__setting">
+          <img src="./images/setting-icon.svg" alt="" class="profile__setting-icon">
+          <p class="profile__setting-name">Settings</p>
+        </li>
+        <li class="profile__setting">
+          <img src="./images/logout-icon.svg" alt="" class="profile__setting-icon">
+          <p class="profile__setting-name">Log out</p>
+        </li>
+      </ul>
+    </section>
       <section class="order">
         <h1 class="order__title">Закончились кредиты?</h1>
-        <hr class="order__title-underline">
+        <hr class="order__title-underline underline">
         <div class="order__swiper swiper">
           <!-- Additional required wrapper -->
           <ul class="order__swiper-list swiper-wrapper">
@@ -82,6 +128,7 @@
       <p class="order__swiper-credits order__swiper-text"></p>
       <span class="order__swiper-text order__swiper-text_coin">cr</span>
       <p class="order__swiper-price order__swiper-text"></p>
+      <button class="order__swiper-button">Buy now</button>
     </li>
   </template>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>

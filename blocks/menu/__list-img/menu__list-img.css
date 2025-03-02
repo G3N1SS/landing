@@ -5,6 +5,12 @@
   height: 30px;
   background-repeat: no-repeat;
   background-position: center center;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.menu__list-img:hover{
+  transform: scale(1.05);
 }
 
 #message.menu__list-img{

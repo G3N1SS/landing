@@ -1,0 +1,8 @@
+.profile__setting-icon{
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.profile__setting-icon:hover{
+    transform: scale(1.05);
+}

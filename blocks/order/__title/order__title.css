@@ -2,4 +2,13 @@
   font-weight: 800;
   font-size: 20px;
   margin-bottom: 10px;
+  width: max-content;
+}
+
+@media screen and (min-width: 768px) {
+  .order__title{
+    font-size: 40px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+  }
 }

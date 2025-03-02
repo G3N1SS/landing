@@ -4,11 +4,18 @@
   color: #fff;
   text-align: end;
   padding: 15px 10px;
-  max-width: 260px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: end;
+  cursor: pointer;
+  transition: all .5s;
+  width: 260px;
+}
+
+.order__swiper-item:active{
+  background-color: var(--secondary-yellow-color);
+  transform: scale(.95);
 }
 
 .order__swiper-item::before{
@@ -23,4 +30,13 @@
   transform: translate(0, -50%);
   left: -7%;
   padding: 4px 10px;
+}
+
+@media screen and (min-width: 768px){
+  .order__swiper-item{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 150px;
+    width: 150px;
+  }
 }

@@ -1,0 +1,8 @@
+.profile__setting-name{
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.profile__setting-name:hover{
+    color: var(--secondary-yellow-color);
+}

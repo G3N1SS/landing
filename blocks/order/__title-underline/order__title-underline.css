@@ -1,6 +1,9 @@
 .order__title-underline{
-  background-color: var(--primary-color);
-  opacity: 0.2;
-  height: 2px;
   margin-bottom: 23px;
+}
+
+@media screen and (min-width: 768px) {
+  .order__title-underline {
+    margin-bottom: 30px;
+  }
 }

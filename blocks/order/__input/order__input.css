@@ -7,6 +7,7 @@
     appearance: none;
     outline: none;
     cursor: pointer;
+    transition: all .4s;
 }
 
 .order__input:checked{

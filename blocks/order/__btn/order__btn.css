@@ -6,4 +6,21 @@
   margin: 0 auto 15px;
   font-size: 16px;
   font-weight: 800;
+  transition: all .4s;
+}
+
+.order__btn:hover{
+  transform: scale(1.05);
+}
+
+.order__btn:active{
+  background-color: var(--primary-color);
+  transform: scale(.95);
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px){
+  .order__btn{
+    display: none;
+  }
 }

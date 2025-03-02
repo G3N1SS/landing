@@ -1,0 +1,14 @@
+.hamburger{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hamburger:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+    .hamburger{
+        display: none;
+    }
+}

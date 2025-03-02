@@ -1,0 +1,24 @@
+.menu__list-text{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    width: max-content;
+    max-width: 250px;
+}
+
+.menu__list-text::before {
+    content: ' ';
+    position: absolute;
+    background-color: var(--primary-color);
+    height: 1px;
+    width: 0;
+    bottom: -2px;
+    right: 0;
+    transition: all .6s;
+    opacity: .7;
+}
+
+.menu__list-text:hover::before{
+    width: 100%;
+    left: 0;
+}

@@ -1,0 +1,5 @@
+.underline {
+    background-color: var(--primary-color);
+    opacity: 0.2;
+    height: 2px;
+}
