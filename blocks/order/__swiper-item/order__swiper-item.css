@@ -36,7 +36,31 @@
   .order__swiper-item{
     flex-wrap: wrap;
     justify-content: center;
-    flex: 1 1 150px;
+    flex: 130px;
     width: 150px;
+    background-color: var(--primary-color-transparent);
+    border: 2px solid var(--primary-color);
+    color: black;
+    gap: 11px 40px;
+  }
+  .order__swiper-item::before{
+    display: none;
+  }
+  .order__swiper-item:hover{
+    background-color: var(--primary-color);
+  }
+  .order__swiper-item:active{
+    background-color: var(--secondary-yellow-color);
+    transform: scale(.95);
+  }
+  .order__swiper-item:hover::before{
+    display: block;
+    opacity: 1;
+    transition: all .4s;
+    z-index: 99999;
+    top: 0;
+    left: 50%;
+    width: max-content;
+    transform: translate(-50%, -50%);
   }
 }

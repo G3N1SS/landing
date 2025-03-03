@@ -2,3 +2,9 @@
   display: inline-block;
   font-size: 24px;
 }
+
+/* @media screen and (min-width:768px){
+  .order__swiper-text{
+    margin-bottom: 11px;
+  }
+} */

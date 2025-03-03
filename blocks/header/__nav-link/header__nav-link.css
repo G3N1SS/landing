@@ -1,3 +1,8 @@
 .header__nav-link{
-    color: #fff
+    color: #fff;
+    transition: all .4s;
+}
+
+.header__nav-link:hover{
+    color: var(--secondary-yellow-color)
 }

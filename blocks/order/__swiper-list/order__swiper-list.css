@@ -4,11 +4,12 @@
 
 @media  screen and (min-width: 768px) {
  .order__swiper-list{
-   margin: 0;
+   margin: 30px 0 0 0;
    gap:20px 30px;
  }
  .swiper-wrapper{
   display: flex;
   flex-wrap: wrap;
+  z-index: 9999;
  }
 }

@@ -1,5 +1,12 @@
 .header_active{
     position: absolute;
-    z-index: 999;
+    z-index: 9999;
     width: 100vw;
+}
+
+@media screen and (min-width: 768px){
+    .header_active{
+        position: relative;
+        width: 100%;
+    }
 }

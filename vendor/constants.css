@@ -1,6 +1,7 @@
 :root {
   --primary-color: #9564AA;
   --secondary-yellow-color: #FFCF2D;
+  --primary-color-transparent: rgba(149, 100, 170, 0.1);
 
   --swiper-pagination-top: 60px;
   --swiper-theme-color: #FFC500;

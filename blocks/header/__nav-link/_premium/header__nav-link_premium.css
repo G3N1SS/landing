@@ -4,3 +4,7 @@
     color: var(--secondary-yellow-color);
     padding: 6px 13px;
 }
+
+.header__nav-link_premium:hover{
+  background-color: #4a3155;
+}

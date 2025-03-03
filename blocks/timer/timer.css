@@ -1,0 +1,14 @@
+.timer{
+  background-color: #C15CA1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 11px;
+  align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .timer{
+        display: none;
+    }
+}

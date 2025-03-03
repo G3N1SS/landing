@@ -19,3 +19,9 @@
     background-color: var(--primary-color);
     transform: scale(.95);
 }
+
+@media screen and (min-width:768px){
+    /* .profile__premium{
+        width: min-content;
+    } */
+}

@@ -2,7 +2,6 @@
     cursor: pointer;
     position: relative;
     display: inline-block;
-    width: max-content;
     max-width: 250px;
 }
 
@@ -21,4 +20,10 @@
 .menu__list-text:hover::before{
     width: 100%;
     left: 0;
+}
+
+@media screen and (min-width:768px){
+    .menu__list-text{
+        min-height: 39px;
+    }
 }

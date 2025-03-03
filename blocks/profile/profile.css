@@ -6,10 +6,10 @@
 
 @media screen and (min-width: 768px) {
   .profile {
-    background-color: rgba(149, 100, 170, 0.1);
+    background-color: var(--primary-color-transparent);
     display: block;
     grid-area: profile;
-    padding: 18px;
+    padding: 6%;
     border-radius: 10px;
     border: 2px solid rgba(149, 100, 170, 0.2);
     max-width: 270px;

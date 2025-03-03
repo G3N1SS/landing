@@ -1,6 +1,8 @@
 .container{
   max-width: 280px;
   margin: 0 auto;
+  z-index: 9998;
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {

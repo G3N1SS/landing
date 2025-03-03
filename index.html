@@ -75,6 +75,11 @@
       <section class="order">
         <h1 class="order__title">Закончились кредиты?</h1>
         <hr class="order__title-underline underline">
+        <div class="timer">
+          <h2 class="timer__title">Скидка 40%</h2>
+          <p class="timer__time-amount">Предложение действует в течение:</p>
+          <p class="timer__time">00 : 00 : 00</p>
+        </div>
         <div class="order__swiper swiper">
           <!-- Additional required wrapper -->
           <ul class="order__swiper-list swiper-wrapper">
@@ -93,7 +98,7 @@
         </form>
       </section>
       <section class="menu">
-        <img src="./images/diamondM.svg" alt="Алмаз" class="menu__img">
+        <img src="" alt="Алмаз" class="menu__img">
         <ul class="menu__list">
           <li class="menu__list-item">
             <div class="menu__list-img" id="message"></div>
@@ -122,11 +127,15 @@
         </ul>
       </section>
     </div>
+    <img src="./images/background1.png" alt="" class="main__background main__background_left">
+    <img src="./images/background2.png" alt="" class="main__background main__background_right">
   </main>
   <template class="order__template-card">
     <li class="order__swiper-item swiper-slide">
-      <p class="order__swiper-credits order__swiper-text"></p>
-      <span class="order__swiper-text order__swiper-text_coin">cr</span>
+      <div class="order__swiper-amount">
+        <p class="order__swiper-credits order__swiper-text"></p>
+        <span class="order__swiper-text order__swiper-text_coin">cr</span>
+      </div>
       <p class="order__swiper-price order__swiper-text"></p>
       <button class="order__swiper-button">Buy now</button>
     </li>

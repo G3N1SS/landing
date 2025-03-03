@@ -3,7 +3,7 @@
         display: grid;
         grid-template-areas: "profile cards"
                              "profile menu";
-        grid-template-columns: 23% 73.5%;
+        grid-template-columns: 23% 73%;
         gap: 0 30px;
     }
 }

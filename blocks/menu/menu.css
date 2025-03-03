@@ -3,4 +3,11 @@
   justify-content: center;
   flex-direction: column;
   grid-area: menu;
+  position: relative;
+}
+
+@media screen and (min-width: 768px){
+  .menu{
+    min-height: 325px;
+  }
 }

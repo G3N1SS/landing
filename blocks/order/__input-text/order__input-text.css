@@ -4,3 +4,9 @@
   line-height: 16px;
   cursor: default;
 }
+
+@media screen and (min-width:768px){
+  .order__input-text{
+    font-size: 13px;
+  }
+}

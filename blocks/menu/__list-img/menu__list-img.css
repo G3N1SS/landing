@@ -28,3 +28,11 @@
 #premium.menu__list-img{
   background-image: url(../../../images/like-icon.svg)
 }
+
+
+@media screen and (min-width:768px){
+  .menu__list-img{
+    width: 50px;
+    height: 50px;
+  }
+}

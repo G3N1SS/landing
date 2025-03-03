@@ -10,6 +10,8 @@
 /*main*/
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/_active/main_active.css);
+@import url(../blocks/main/__background/main__background.css);
+@import url(../blocks/main/__background/_right/main__background_right.css);
 
 /* container */
 @import url(../blocks/container/container.css);
@@ -31,6 +33,7 @@
 @import url(../blocks/order/__form/order__form.css);
 @import url(../blocks/order/__title/order__title.css);
 @import url(../blocks/order/__title/_active/order__title_active.css);
+@import url(../blocks/order/__swiper-amount/order__swiper-amount.css);
 @import url(../blocks/order/__swiper-credits/order__swiper-credits.css);
 @import url(../blocks/order/__swiper-text/order__swiper-text.css);
 @import url(../blocks/order/__swiper-text/_coin/order__swiper-item_coin.css);
@@ -43,6 +46,12 @@
 @import url(../blocks/order/__input-text/_link/order__input-text_link.css);
 @import url(../blocks/order/__swiper-price/order__swiper-price.css);
 @import url(../blocks/order/__swiper-button/order__swiper-button.css);
+@import url(../blocks/order/__swiper-button/_hover/order__swiper-button_hover.css);
+/* timer */
+@import url(../blocks/timer/timer.css);
+@import url(../blocks/timer/__title/timer__title.css);
+@import url(../blocks/timer/__time-amount/timer__time-amount.css);
+@import url(../blocks/timer/__time/timer__time.css);
 /* hamburger */
 @import url(../blocks/hamburger/hamburger.css);
 @import url(../blocks/hamburger/_active/hamburger_active.css);
