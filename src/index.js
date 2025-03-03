@@ -1,6 +1,9 @@
-import { CreditsCard } from "./components/CreditsCard.js";
-import { CreditsSection } from "./components/CreditsSection.js";
-import { initialCards } from "./utils/constants.js";
+import { CreditsCard } from "./scripts/components/CreditsCard.js";
+import { CreditsSection } from "./scripts/components/CreditsSection.js";
+import { initialCards } from "./scripts/utils/constants.js";
+import Swiper from 'swiper';
+import 'swiper/swiper-bundle.css';
+import './pages/index.css'
 
 const logo = document.querySelector('.header__icon'),
       menu = document.querySelector('.menu__img'),
@@ -41,12 +44,10 @@ function startCountdown(durationInSeconds) {
 }
 
 const cardSectionInstance = new CreditsSection({renderer: ({amount, price}) => {
-  console.log(amount)
   const cardElement = createCredit({amount, price});
   cardSectionInstance.addItem(cardElement);
 }}, '.order__swiper-list');
 
-console.log('hello');
 const swiper = new Swiper('.swiper', {
   pagination:{
     el: '.swiper-pagination',
@@ -54,8 +55,9 @@ const swiper = new Swiper('.swiper', {
   },
   speed: 400,
   slidesPerView: "auto",
-  width: 200,
+  width: 260,
   spaceBetween: 100,
+  slidesPerView: 1,
   breakpoints: {
     768:{
       slidesPerView: 6,
