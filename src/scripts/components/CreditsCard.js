@@ -7,8 +7,6 @@ export class CreditsCard{
   #productButton;
 
   constructor({price, amount}, templateSelector){
-    console.log(price);
-    console.log(amount)
     this.#price = price;
     this.#credits = amount;
     this.#newProduct = document
