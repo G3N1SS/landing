@@ -2,7 +2,9 @@ import { CreditsCard } from "./scripts/components/CreditsCard.js";
 import { CreditsSection } from "./scripts/components/CreditsSection.js";
 import { initialCards } from "./scripts/utils/constants.js";
 import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+import { Pagination } from 'swiper/modules'
+import 'swiper/css';
+import 'swiper/css/pagination';
 import './pages/index.css'
 
 const logo = document.querySelector('.header__icon'),
@@ -48,24 +50,6 @@ const cardSectionInstance = new CreditsSection({renderer: ({amount, price}) => {
   cardSectionInstance.addItem(cardElement);
 }}, '.order__swiper-list');
 
-const swiper = new Swiper('.swiper', {
-  pagination:{
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  speed: 400,
-  slidesPerView: "auto",
-  width: 260,
-  spaceBetween: 100,
-  slidesPerView: 1,
-  breakpoints: {
-    768:{
-      slidesPerView: 6,
-      spaceBetween: 0,
-      width: 150
-    }
-  }
-});
 
 cardSectionInstance.rendererItems(initialCards);
 
@@ -75,6 +59,26 @@ window.addEventListener('DOMContentLoaded', () => {
     hamburger.classList.toggle('hamburger_active');
     profile.classList.toggle('profile_active');
     title.classList.toggle('order__title_active');
+  });
+
+  new Swiper('.swiper', {
+    modules: [Pagination],
+    pagination:{
+      el: '.order__swiper-pagination',
+      clickable: true
+    },
+    speed: 400,
+    slidesPerView: "auto",
+    width: 260,
+    spaceBetween: 100,
+    slidesPerView: 1,
+    breakpoints: {
+      768:{
+        slidesPerView: 6,
+        spaceBetween: 0,
+        width: 150
+      }
+    }
   });
 
   if(window.innerWidth > 768){
